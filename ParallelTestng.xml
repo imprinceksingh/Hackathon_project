@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Chrome Test">
+	  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testCases.TC001_InvalidGoogleLogin"/>
+      <class name="testCases.TC002_BikeDetails"/>
+      <class name="testCases.TC003_CarDetails"/>
+      <class name="testCases.TC004_HealthInsurance"/>
+      <class name="testCases.TC005_UsedCarDetails"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name=" Edge Test">
+	  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="testCases.TC001_InvalidGoogleLogin"/>
+      <class name="testCases.TC002_BikeDetails"/>
+      <class name="testCases.TC003_CarDetails"/>
+      <class name="testCases.TC004_HealthInsurance"/>
+      <class name="testCases.TC005_UsedCarDetails"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test name="Chrome Test">
+	  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+     <class name="testCases.TC001_InvalidGoogleLogin"/>
+      <class name="testCases.TC002_BikeDetails"/>
+      <class name="testCases.TC003_UsedCarDetails"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
